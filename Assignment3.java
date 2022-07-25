@@ -36,10 +36,8 @@ class WashingMachine {
         System.out.println("The number clothes accepted are " + noOfClothes);
         return noOfClothes;
     }
-
     void acceptDetergents() {
     }
-
     void switchOff() {
     }
 }
