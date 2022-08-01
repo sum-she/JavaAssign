@@ -64,7 +64,7 @@ public class Assignment6 {
             while (upList.next()) {
                 System.out.println(upList.getInt(1) + "  " + upList.getString(2) + "  " + upList.getInt(3));
             }
-//
+
             //delete a record
             PreparedStatement delStmt = con.prepareStatement("DELETE FROM emp WHERE id = ?");
             delStmt.setInt(1, 4);
