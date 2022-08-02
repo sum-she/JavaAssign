@@ -6,7 +6,7 @@ public class Assignment6 {
             //JDBC driver
             Class.forName("com.mysql.cj.jdbc.Driver");
             //connection to sql database
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306", "root", "Grad05/28");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306", "root", "root");
 
             Statement stmt = con.createStatement();
             //using employeeinfo database
